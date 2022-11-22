@@ -28,7 +28,7 @@ namespace _1.dal.DaoDbContext
        protected override void OnConfiguring(DbContextOptionsBuilder optionBuider)
         {
             base.OnConfiguring(optionBuider.
-                UseSqlServer("Data Source=CONGPC;Initial Catalog=clgt;" + "Persist Security Info=True;User ID=cong_agile;Password=1"));
+                UseSqlServer("Data Source=DESKTOP-CNC5A0H\\SQLEXPRESS;Initial Catalog=DUAN3;Persist Security Info=True;User ID=hungphph27359;Password=240803"));
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

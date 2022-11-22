@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\cSharp\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj": {}
+    "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj": {}
   },
   "projects": {
-    "D:\\cSharp\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj": {
+    "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\cSharp\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj",
+        "projectUniqueName": "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj",
         "projectName": "2.bus",
-        "projectPath": "D:\\cSharp\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj",
-        "packagesPath": "C:\\Users\\ncong\\.nuget\\packages\\",
-        "outputPath": "D:\\cSharp\\DuAnOne_team06_it17305\\2.bus\\obj\\",
+        "projectPath": "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj",
+        "packagesPath": "C:\\Users\\hungt\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\2.bus\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ncong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\hungt\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

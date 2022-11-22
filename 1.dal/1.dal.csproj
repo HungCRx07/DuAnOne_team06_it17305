@@ -18,4 +18,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\2.bus\2.bus.csproj" />
+  </ItemGroup>
+
 </Project>

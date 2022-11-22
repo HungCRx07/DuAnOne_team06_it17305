@@ -1519,6 +1519,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
+      },
+      "2.bus/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/2.bus.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/2.bus.dll": {}
+        }
       }
     }
   },
@@ -5787,10 +5797,16 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "2.bus/1.0.0": {
+      "type": "project",
+      "path": "../2.bus/2.bus.csproj",
+      "msbuildProject": "../2.bus/2.bus.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "2.bus >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.17",
       "Microsoft.EntityFrameworkCore.Relational >= 5.0.17",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.17",
@@ -5798,23 +5814,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ncong\\.nuget\\packages\\": {},
+    "C:\\Users\\hungt\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\cSharp\\DuAnOne_team06_it17305\\3.pl\\3.pl.csproj",
+      "projectUniqueName": "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\3.pl\\3.pl.csproj",
       "projectName": "3.pl",
-      "projectPath": "D:\\cSharp\\DuAnOne_team06_it17305\\3.pl\\3.pl.csproj",
-      "packagesPath": "C:\\Users\\ncong\\.nuget\\packages\\",
-      "outputPath": "D:\\cSharp\\DuAnOne_team06_it17305\\3.pl\\obj\\",
+      "projectPath": "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\3.pl\\3.pl.csproj",
+      "packagesPath": "C:\\Users\\hungt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\3.pl\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ncong\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\hungt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -5828,7 +5844,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj": {
+              "projectPath": "C:\\Users\\hungt\\Desktop\\DuAnOne_team06_it17305\\2.bus\\2.bus.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -5880,7 +5900,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }
